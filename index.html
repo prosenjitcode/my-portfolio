@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
         .gradient-text {
             background: linear-gradient(90deg, #60a5fa, #a78bfa);
             -webkit-background-clip: text;
@@ -18,19 +23,26 @@
         .custom-scrollbar::-webkit-scrollbar {
             width: 6px;
         }
+
         .custom-scrollbar::-webkit-scrollbar-track {
-            background: #0f172a; /* slate-950 */
+            background: #0f172a;
+            /* slate-950 */
             border-radius: 10px;
         }
+
         .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #334155; /* slate-700 */
+            background: #334155;
+            /* slate-700 */
             border-radius: 10px;
         }
+
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background: #475569; /* slate-600 */
+            background: #475569;
+            /* slate-600 */
         }
     </style>
 </head>
+
 <body class="bg-slate-950 text-slate-200">
 
     <!-- Navigation -->
@@ -53,11 +65,16 @@
                 Building Scalable <br><span class="gradient-text">Enterprise Systems</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10">
-                Senior Full-Stack & Backend Engineer with 10+ years of experience in designing high-concurrency distributed systems, Fintech solutions, and real-time applications.
+                Senior Full-Stack & Backend Engineer with 10+ years of experience in designing high-concurrency
+                distributed systems, Fintech solutions, and real-time applications.
             </p>
             <div class="flex justify-center gap-4">
-                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">View Case Studies</a>
-                <a href="#contact" class="border border-slate-700 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-semibold transition">Get In Touch</a>
+                <a href="#projects"
+                    class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">View
+                    Case Studies</a>
+                <a href="#contact"
+                    class="border border-slate-700 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-semibold transition">Get
+                    In Touch</a>
             </div>
         </div>
     </section>
@@ -70,17 +87,20 @@
                 <div class="p-8 bg-slate-800/50 rounded-2xl border border-slate-700">
                     <div class="text-blue-400 mb-4">● Backend Architecture</div>
                     <h3 class="text-xl font-bold text-white mb-2">Microservices & Scalability</h3>
-                    <p class="text-slate-400 text-sm">Expertise in designing distributed systems, event-driven architectures, and handling high-load traffic spikes.</p>
+                    <p class="text-slate-400 text-sm">Expertise in designing distributed systems, event-driven
+                        architectures, and handling high-load traffic spikes.</p>
                 </div>
                 <div class="p-8 bg-slate-800/50 rounded-2xl border border-slate-700">
                     <div class="text-purple-400 mb-4">● Fintech Security</div>
                     <h3 class="text-xl font-bold text-white mb-2">Secure Transaction Systems</h3>
-                    <p class="text-slate-400 text-sm">Deep understanding of ACID properties, data encryption, and secure payment gateway integrations.</p>
+                    <p class="text-slate-400 text-sm">Deep understanding of ACID properties, data encryption, and secure
+                        payment gateway integrations.</p>
                 </div>
                 <div class="p-8 bg-slate-800/50 rounded-2xl border border-slate-700">
                     <div class="text-emerald-400 mb-4">● Real-time Systems</div>
                     <h3 class="text-xl font-bold text-white mb-2">Low-Latency Delivery</h3>
-                    <p class="text-slate-400 text-sm">Specializing in WebSocket-based real-time updates and high-speed caching strategies for live applications.</p>
+                    <p class="text-slate-400 text-sm">Specializing in WebSocket-based real-time updates and high-speed
+                        caching strategies for live applications.</p>
                 </div>
             </div>
         </div>
@@ -90,7 +110,8 @@
     <section id="projects" class="py-20 px-6">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold text-white mb-4 text-center">Featured Case Studies</h2>
-            <p class="text-slate-400 text-center mb-16">Deep dives into complex engineering challenges I have solved.</p>
+            <p class="text-slate-400 text-center mb-16">Deep dives into complex engineering challenges I have solved.
+            </p>
 
             <div class="space-y-20">
                 <!-- Project 1: Loan Application -->
@@ -98,16 +119,21 @@
                     <div class="w-full md:w-1/2">
                         <!-- SCROLLABLE IMAGE CONTAINER -->
                         <!-- h-[400px] defines the viewing height. Change it to h-[500px] if you want a taller view. -->
-                        <div class="aspect-video overflow-y-auto rounded-2xl border border-slate-700 shadow-2xl custom-scrollbar bg-slate-900">
-                            <img src="Screenshot_1-5-2026_94148_binimoy.dskysolution.com.jpeg" alt="Loan Application Dashboard" class="w-full h-auto block">
+                        <div
+                            class="aspect-video overflow-y-auto rounded-2xl border border-slate-700 shadow-2xl custom-scrollbar bg-slate-900">
+                            <img src="Screenshot_1-5-2026_94148_binimoy.dskysolution.com.jpeg"
+                                alt="Loan Application Dashboard" class="w-full h-auto block">
                         </div>
-                        <p class="text-center text-slate-500 text-xs mt-3 italic font-light">Scroll to explore full dashboard →</p>
+                        <p class="text-center text-slate-500 text-xs mt-3 italic font-light">Scroll to explore full
+                            dashboard →</p>
                     </div>
                     <div class="w-full md:w-1/2">
-                        <span class="text-blue-400 text-sm font-semibold tracking-widest uppercase">Fintech Solution</span>
+                        <span class="text-blue-400 text-sm font-semibold tracking-widest uppercase">Fintech
+                            Solution</span>
                         <h3 class="text-3xl font-bold text-white mt-2 mb-4">End-to-End Digital Loan Platform</h3>
                         <p class="text-slate-400 mb-6">
-                            Designed and architected a robust loan management system capable of handling complex credit scoring, automated disbursement, and multi-tier repayment scheduling.
+                            Designed and architected a robust loan management system capable of handling complex credit
+                            scoring, automated disbursement, and multi-tier repayment scheduling.
                         </p>
                         <ul class="grid grid-cols-2 gap-y-2 text-sm text-slate-300 mb-6">
                             <li>✔ Microservices Architecture</li>
@@ -126,16 +152,21 @@
                     <div class="w-full md:w-1/2">
                         <!-- SCROLLABLE IMAGE CONTAINER -->
                         <!-- h-[400px] defines the viewing height. Change it to h-[500px] if you want a taller view. -->
-                        <div class="aspect-video overflow-y-auto rounded-2xl border border-slate-700 shadow-2xl custom-scrollbar bg-slate-900">
-                            <img src="Screenshot_1-5-2026_94229_dashboard.adrgroupconstruction.in.jpeg" alt="Fantasy App Dashboard" class="w-full h-auto block">
+                        <div
+                            class="aspect-video overflow-y-auto rounded-2xl border border-slate-700 shadow-2xl custom-scrollbar bg-slate-900">
+                            <img src="Screenshot_1-5-2026_94229_dashboard.adrgroupconstruction.in.jpeg"
+                                alt="Fantasy App Dashboard" class="w-full h-auto block">
                         </div>
-                        <p class="text-center text-slate-500 text-xs mt-3 italic font-light">Scroll to explore full dashboard →</p>
+                        <p class="text-center text-slate-500 text-xs mt-3 italic font-light">Scroll to explore full
+                            dashboard →</p>
                     </div>
                     <div class="w-full md:w-1/2">
-                        <span class="text-purple-400 text-sm font-semibold tracking-widest uppercase">High-Concurrency Platform</span>
+                        <span class="text-purple-400 text-sm font-semibold tracking-widest uppercase">High-Concurrency
+                            Platform</span>
                         <h3 class="text-3xl font-bold text-white mt-2 mb-4">Real-time Fantasy Sports Engine</h3>
                         <p class="text-slate-400 mb-6">
-                            Engineered a high-traffic fantasy sports application handling millions of concurrent users during peak match hours, ensuring sub-second latency for live score updates.
+                            Engineered a high-traffic fantasy sports application handling millions of concurrent users
+                            during peak match hours, ensuring sub-second latency for live score updates.
                         </p>
                         <ul class="grid grid-cols-2 gap-y-2 text-sm text-slate-300 mb-6">
                             <li>✔ WebSocket Integration</li>
@@ -144,7 +175,8 @@
                             <li>✔ Load Balancing & Auto-scaling</li>
                         </ul>
                         <div class="flex gap-3 text-xs font-mono text-purple-300">
-                            <span>#NodeJS/NestJS</span> <span>#Redis</span> <span>#WebSockets</span> <span>#PostgreSQL</span> <span>#AWS</span>
+                            <span>#NodeJS/NestJS</span> <span>#Redis</span> <span>#WebSockets</span>
+                            <span>#PostgreSQL</span> <span>#AWS</span>
                         </div>
                     </div>
                 </div>
@@ -156,10 +188,16 @@
     <section id="contact" class="py-20 bg-blue-600 text-white">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold mb-6">Ready to build something massive?</h2>
-            <p class="text-blue-100 text-lg mb-10">I am available for consulting, architectural design, and lead engineering roles.</p>
+            <p class="text-blue-100 text-lg mb-10">I am available for consulting, architectural design, and lead
+                engineering roles.</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="mailto:prosenbiswas90@email.com" class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-blue-50 transition">Email Me</a>
-                <a href="https://www.linkedin.com/in/prosenjit-biswas-40951211a" class="border border-white text-white px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition">LinkedIn Profile</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=prosenbiswas90@email.com" target="_blank"
+                    class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-blue-50 transition">
+                    Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/prosenjit-biswas-40951211a"
+                    class="border border-white text-white px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition">LinkedIn
+                    Profile</a>
             </div>
         </div>
     </section>
@@ -169,4 +207,5 @@
     </footer>
 
 </body>
+
 </html>
